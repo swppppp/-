@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="missionStyle/amsStyle.css">
+<title>AMS 시스템</title>
+</head>
+<body>
+
+<form action="">
+<h2>AMS 시스템</h2>
+<!-- 
+<table border="1">
+  <tr>
+    <th>계좌종류</th>
+    <td>
+      <select naem="acc_type">
+        <option>전체
+        <option>입출금계좌
+        <option>대출계좌
+      </select>
+    </td>
+  </tr>
+  
+  <tr>
+    <th>계좌번호</th>
+    <td>
+      <input type="text" patter="[0-9]{4}[-][0-9]{3}[-][0-9]{6}" name="accountNum">
+      <input type="submit" value="조회">
+      <input type="submit" value="삭제">
+    </td>
+  </tr>
+  
+  <tr>
+    <th>예금주명</th>
+    <td>
+      <input type="text" name="accOwn">
+      <input type="submit" value="검색">
+    </td>
+  </tr>
+  
+  <tr>
+    <th>비밀번호</th>
+    <td>
+    <input type="text" name="passwd">
+    입금금액
+    <input type="text" name="depositVal">
+    </td>
+  </tr>
+  
+  <tr>
+    <th>대출금액</th>
+    <td>
+    <input type="text" name="loanVal">
+    <input type="submit" value="신규등록">
+    <input type="submit" value="전체조회">
+    </td>
+  </tr>
+  
+</table>
+ -->
+ 
+<!-- 
+<fieldset>
+<legend>계좌정보 입력</legend>
+  <span>계좌종류</span>
+  <select name="accType">
+    <option>전체
+    <option>입출금계좌
+    <option>대출계좌
+   </select><br>
+   
+  <span>계좌번호</span>
+  <input type="text" patter="[0-9]{4}[-][0-9]{3}[-][0-9]{6}" name="accountNum">
+  <input type="submit" value="조회">
+  <input type="submit" value="삭제"><br>
+  
+  <span>예금주명</span>
+  <input type="text" name="accOwn">
+  <input type="submit" value="검색"><br>
+  
+  <span>비밀번호</span>
+  <input type="text" name="passwd" ><br>
+  
+  <span>입금금액</span>
+  <input type="text" name="depositVal"><br>
+  
+  <span>대출금액</span>
+    <input type="text" name="loanVal">
+    <input type="submit" value="신규등록">
+    <input type="submit" value="전체조회"><br>
+  
+</fieldset>
+ -->
+ 
+<div id="amsInput">
+
+  <div>
+    <span>계좌종류</span>
+    <select name="accType">
+      <option>전체
+      <option>입출금계좌
+      <option>대출계좌
+     </select><br>
+  </div>
+   
+  <div> 
+    <span>계좌번호</span>
+    <input type="text" patter="[0-9]{4}[-][0-9]{3}[-][0-9]{6}" name="accountNum">
+    <input type="submit" value="조회">
+    <input type="submit" value="삭제"><br>
+  </div>
+  
+  <div>
+    <span>예금주명</span>
+    <input type="text" name="accOwn">
+    <input type="submit" value="검색"><br>
+  </div>
+  
+  <div>
+    <span>비밀번호</span>
+    <input type="text" name="passwd" ><br>
+  </div>
+  
+  <div>
+    <span>입금금액</span>
+    <input type="text" name="depositVal"><br>
+  </div>
+  
+  <div>
+    <span>대출금액</span>
+      <input type="text" name="loanVal">
+      <input type="submit" value="신규등록">
+      <input type="submit" value="전체조회"><br>
+  </div>
+
+</div>
+
+<div id="accResult">
+<table>
+  <tr>
+  <th>계좌종류</th><th>계좌번호</th><th>예금주명</th><th>현재잔액</th><th>대출금액</th>  
+  </tr>
+  
+  <tr>
+  <td>입출금</td>
+  <td>1002-654-832899</td>
+  <td>박시원</td>
+  <td>100,000</td>
+  <td>0</td>
+  </tr>  
+  
+  <tr>
+  <td>대출</td>
+  <td>1009-654-832899</td>
+  <td>전상일</td>
+  <td>-1,000,000</td>
+  <td>1,000,000</td>
+  </tr>
+  
+  <tr>
+  <td>입출금</td>
+  <td>1002-234-832899</td>
+  <td>박호준</td>
+  <td>500,000</td>
+  <td>0</td>
+  </tr>
+  
+  <tr>
+  <td>입출금</td>
+  <td>1009-654-832899</td>
+  <td>박의수</td>
+  <td>600,000</td>
+  <td>0</td>
+  </tr>
+
+
+  <tr>
+  <td>입출금</td>
+  <td>1002-7594-134528</td>
+  <td>백욱기</td>
+  <td>30,000</td>
+  <td>0</td>
+  </tr>
+  
+</table>
+</div>
+
+</form>
+
+
+</body>
+</html>

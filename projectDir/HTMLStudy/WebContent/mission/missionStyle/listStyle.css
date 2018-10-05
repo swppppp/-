@@ -1,0 +1,17 @@
+form {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border: 0 auto;
+	border: 1px solid black;
+}
+
+thead {
+	    text-align: center;
+
+    color: #1c5d79;
+	
+	background-image: url(col_bg.gif);
+}

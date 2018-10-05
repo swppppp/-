@@ -1,0 +1,31 @@
+/*@charset "EUC-KR";*/
+
+body {
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+	margin-bottom: 5px;
+	border-collapse: collapse;
+}
+
+table, tr, td, th {
+	border: 1px solid black;
+}
+
+td{
+	text-align: left;
+}
+
+th {
+	width: 100px;
+}
+
+.textfield {
+	width: 130px;
+}
+
+.select{
+	width: 100px;
+}

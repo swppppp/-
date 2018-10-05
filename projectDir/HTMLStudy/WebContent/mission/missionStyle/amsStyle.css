@@ -1,0 +1,41 @@
+
+form {
+	border: 1px solid black;
+	text-align: center;
+}
+
+#amsInput{
+	background-color: yellow;
+	margin: 0 25% 0 25%;
+}
+
+div {
+	/* border: 1px solid black; */
+}
+
+form > div {
+	margin-bottom: 2px;
+	text-align: justify;
+}
+
+form > div > div {
+	margin-top: 2px;
+	
+}
+
+span {
+	/* border: 1px solid black; */
+	font-weight: bold;
+}
+
+table {
+	width: 98%;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-collapse: collapse;
+}
+
+table, tr, td, th {
+	border: 1px solid black;
+}
