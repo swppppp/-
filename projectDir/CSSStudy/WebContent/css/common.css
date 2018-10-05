@@ -1,0 +1,12 @@
+/* @charset "utf-8"; /** default값이 utf-8 */
+
+/* selector */
+body {
+	font-family: 굴림;
+}
+p {
+  font-size: 15pt; 
+  color: white; 
+  font-family: 신명조;
+  background-color: #9c27b042;
+}
